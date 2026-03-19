@@ -2,7 +2,7 @@
   "name": "market-streamer",
   "version": "1.0.0",
   "description": "Market data streamer",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
     "build": "esbuild index.js --bundle --platform=node --outfile=dist/index.js"
